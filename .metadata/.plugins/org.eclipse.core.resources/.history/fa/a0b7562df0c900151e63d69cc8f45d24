@@ -1,0 +1,48 @@
+
+/*
+ * Author: Angelo Romel Lopez
+ * Date: 02/02/2016
+ * Description Staircase Structure.
+ * Print a staircase of height N that consists of # symbols and spaces. 
+ * For example for N=6, here's a staircase of that height:
+ * 
+ *   #
+    ##
+   ###
+  ####
+ #####
+######
+ * */
+
+package StaircaseStruct;
+import java.util.*;
+
+public class StaircaseStruct {
+
+	public static void main(String[] args) {
+		System.out.println("STAIR STRUCTURE\nPlease enter the number of steps: ");
+		Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+		//int n = 5;
+        String buffer = "";
+        int space = 0, value = 0;
+        
+        for(int i = 0; i <= n; i ++){
+            space = n - i;
+            value = i;
+            
+            for(int x = 0; x < space; x ++){
+                buffer += " ";
+            }
+            
+            for(int x = 0; x < value; x ++){
+                buffer += "#";
+            }
+            
+            System.out.println(buffer);
+            buffer = "";
+        }
+        //in.close();
+	}
+
+}
