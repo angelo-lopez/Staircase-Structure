@@ -9,7 +9,7 @@ Created with Eclipse Mars.1 and Java 7.
 /*
  * Author: Angelo Lopez
  * Date: 02/02/2016
- * Description Staircase Structure. My solution to a problem/challenge at Hackerrank.com
+ * Description Staircase Structure. My solution to a problem/challenge at Hackerrank.com The challenge took under 9 minutes.
  * Prints a staircase of height N that consists of # symbols and spaces. 
  * For example for N=6, here's a staircase of that height:
  * 
