@@ -7,7 +7,7 @@ align the '#' symbols to the right on this README.md file. This does not apply t
 Created with Eclipse Mars.1 and Java 7.
 
 /*
- * Author: Angelo Romel Lopez
+ * Author: Angelo Lopez
  * Date: 02/02/2016
  * Description Staircase Structure. My solution to a problem/challenge at Hackerrank.com
  * Prints a staircase of height N that consists of # symbols and spaces. 
